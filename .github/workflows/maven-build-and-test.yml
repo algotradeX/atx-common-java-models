@@ -1,8 +1,12 @@
 name: Maven Build and Test
 
-on:
-  release:
-    types: [created]
+on: 
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 
 jobs:
