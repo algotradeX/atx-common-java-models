@@ -1,3 +1,4 @@
 # atx-common-java-models
 
-![.github/workflows/maven-build-and-test.yml](https://github.com/algotradeX/atx-common-java-models/workflows/.github/workflows/maven-build-and-test.yml/badge.svg)
+![Maven Build and Test](https://github.com/algotradeX/atx-common-java-models/workflows/Maven%20Build%20and%20Test/badge.svg)
+
