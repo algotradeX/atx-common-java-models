@@ -1,4 +1,4 @@
-name: Maven Build and Test
+name: Maven Build
 
 on: 
   push:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    name: Maven Build and Test
+    name: Maven Build
 
     runs-on: ubuntu-latest
 
