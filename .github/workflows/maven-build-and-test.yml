@@ -4,8 +4,10 @@ on:
   release:
     types: [created]
 
+
 jobs:
   build:
+    name: Maven Build and Test
 
     runs-on: ubuntu-latest
 
