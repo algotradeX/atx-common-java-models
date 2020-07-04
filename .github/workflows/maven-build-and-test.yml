@@ -1,13 +1,17 @@
-name: Maven Build and Test
+name: Maven Build
 
-on:
-  release:
-    types: [created]
+on: 
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 
 jobs:
   build:
-    name: Maven Build and Test
+    name: Maven Build
 
     runs-on: ubuntu-latest
 
@@ -21,5 +25,5 @@ jobs:
     - name: Build with Maven
       run: mvn clean install
 
-    - name: BMaven Test
+    - name: Maven Test
       run: mvn test
