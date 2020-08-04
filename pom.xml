@@ -5,7 +5,7 @@
 
 	<groupId>com.atx.java</groupId>
 	<artifactId>atx-common-java-models</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.5</version>
 	<name>model</name>
 	<description>Common java model for ATX</description>
 

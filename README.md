@@ -11,7 +11,7 @@
 <dependency>
   <groupId>com.atx.java</groupId>
   <artifactId>atx-common-java-models</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.5</version>
 </dependency>
 ```
 
